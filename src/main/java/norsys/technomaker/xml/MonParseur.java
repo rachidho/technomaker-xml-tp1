@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.jdom.Document;
+import org.jdom.Element;
 import org.jdom.input.SAXBuilder;
 
 /**
@@ -24,41 +25,39 @@ public class MonParseur {
 
 		// On initialise un nouvel élément racine avec l'élément racine du
 		// document.
-		org.jdom.Element racine = document.getRootElement();
+		Element racine = document.getRootElement();
 
 		// On crée une List contenant tous les noeuds "chien" de l'Element
-		// racine
-		List listChien = racine.getChild("chiens").getChildren();
+		// chiens
+		List<Element> listChien = racine.getChild("chiens").getChildren();
 		// On crée une List contenant tous les noeuds "chat" de l'Element
-		// racine
-		List listChat = racine.getChild("chats").getChildren();
+		// chats
+		List<Element> listChat = racine.getChild("chats").getChildren();
 
-		Iterator itChien = listChien.iterator();
-		Iterator itChat = listChat.iterator();
-		
 		String nomChien = "";
 		String nomsChats = "";
+
 		/**
-		 * parcourire la liste des chients 
-		 * si le chient "C456789" et trouve en fai un break
+		 * parcourire la liste des chients si le chient "C456789" et trouve en
+		 * fai un break
 		 */
-		while (itChien.hasNext()) {
-			org.jdom.Element element = (org.jdom.Element) itChien.next();
+		for (Element element : listChien) {
 			// TODO Cette variable doit contenir le nom du chien "C456789"
-			if ("C456789".equals(element.getAttribute("numeroCollier").getValue())){
+			if ("C456789".equals(element.getAttribute("numeroCollier")
+					.getValue())) {
 				nomChien = element.getValue();
 				break;
 			}
 		}
+
 		/**
 		 * parcourir la liste des chats
 		 */
-		while(itChat.hasNext()){
-			org.jdom.Element element = (org.jdom.Element) itChat.next();
+		for (Element element : listChat) {
 			// TODO Cette variable doit contenir les noms de tous les chats.
-			nomsChats += element.getValue()+" ";
+			nomsChats += element.getValue() + " ";
 		}
-		
+
 		/**
 		 * affichage de resultat
 		 */
