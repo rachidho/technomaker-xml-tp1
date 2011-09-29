@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animaux xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="descripteur.xsd">
+	
+	<chiens>
+		<chien numeroCollier="C112233">Medor</chien>
+		<!-- Chien inconnu -->
+		<chien numeroCollier="C212343" />
+		<chien numeroCollier="C456789">Spot</chien>
+	</chiens>
+	<chats>
+		<chat numeroCollier="F456789">Felix</chat>
+		<chat numeroCollier="F456789">Caramel</chat>
+	</chats>
+</animaux>

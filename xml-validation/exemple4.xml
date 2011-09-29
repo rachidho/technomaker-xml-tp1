@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animaux xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="descripteur.xsd">
+	<!-- les propriete ne son pas defini dans le descripteur.xml -->
+	<!-- erreur dans l'ordre : il faut suivre lordre chiens suivi par chats 
+		et pas l'invirce comme il est defini dans le descripteur -->
+
+	<chiens />
+
+	<!-- nombreDeChats="1" -->
+	<chats>
+		<chat />
+	</chats>
+
+	<!-- nombreDeChien="0" -->
+	<!-- <chiens/> -->
+
+</animaux>

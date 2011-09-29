@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animaux xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="descripteur.xsd">
+
+	<chats>
+		<chat numeroCollier="C12345" />
+		<!-- <chat nombreDePattes="4" /> nombreDePattes : propriete non defini 
+			dans le descripteur -->
+		<chat numeroCollier="D12345" /> <!-- milange des caracter et nombre -->
+	</chats>
+
+</animaux>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ce fichier contient 1 erreur 
+<?xml version="1.0" encoding="UTF-8"?> doit etre toujour a l'entet de document
+-->
+<animaux>
+	<chien>Médor</chien>
+</animaux>

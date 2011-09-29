@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ce fichier contient 1 erreur -->
+<animaux>
+	<chat>Caramel</chat>
+	<chien>Médor</chien>
+</animaux>
+<!-- <animaux>
+	<chien>Médor</chien>
+</animaux> -->

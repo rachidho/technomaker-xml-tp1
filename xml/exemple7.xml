@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ce fichier contient 1 erreur -->
+<animaux>
+	<chien type="chienMechant">Médor</chien >
+	<!-- <chien>Médor</chien type="chienMechant"> -->
+</animaux>

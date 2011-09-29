@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Commentaire : voici un fichier XML valide ! -->
+<animaux>
+	<!-- Commentaire : deux chats et un chien -->
+	<chat>Félix</chat>
+	<chat>Caramel</chat>
+	<chien>Médor</chien>
+	<!-- Commentaire : plusieurs poissons -->
+	<poissons>
+		<poisson couleur="rouge" />
+		<poisson couleur="rouge" />
+		<poisson couleur="bleu" />
+		<poisson couleur="jaune" />
+	</poissons>
+</animaux>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animaux xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="descripteur.xsd">
+
+	<chiens>
+		<!-- la balise <chiens> doit comporte seulement les chients -->
+		<chien>Medor</chien>
+		<chien>Spot</chien>
+		<!-- <lapin>Pilou</lapin> -->
+		<!-- <chat>Felix</chat> -->
+	</chiens>
+	<chats>
+		<!-- la balise <chats> doit comporte seulement les chats -->
+		<chat>Caramel</chat>
+		<!-- <chien>Plutot</chien> -->
+	</chats>
+
+</animaux>

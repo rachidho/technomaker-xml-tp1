@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ce fichier contient 1 erreur -->
+<animaux>
+	<chat nom="Félix" ></chat>
+	<!-- Caramel est mon chat préféré ! -->
+	<chat nom="Caramel"></chat>
+	<chien nom="Médor"></chien>
+</animaux>
